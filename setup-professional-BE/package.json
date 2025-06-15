@@ -1,0 +1,14 @@
+{
+  "name": "setup-professional-be",
+  "version": "1.0.0",
+  "description": "basic setup",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishabh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
