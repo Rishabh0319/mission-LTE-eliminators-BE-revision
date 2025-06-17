@@ -1,0 +1,14 @@
+{
+  "name": "db-modelling",
+  "version": "1.0.0",
+  "description": "revision about data modeling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishabh Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.16.0"
+  }
+}
