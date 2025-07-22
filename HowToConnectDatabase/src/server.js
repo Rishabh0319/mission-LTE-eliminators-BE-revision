@@ -20,6 +20,12 @@ app.use(cors({
 app.use(cookieParser());                             // for access and set the cookies which are coming from client or browser
 
 
+//routes import
+import userRouter from './routes/user.route.js';
+
+// routes declaration
+app.use("/api/v1/users", userRouter);
+
 
 DBConnection()
     .then(() => {
